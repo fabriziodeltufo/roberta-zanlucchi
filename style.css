@@ -111,9 +111,11 @@ hr {
     display: block;
 }
 
+.header__menu a:hover{color:white}
+
 .header__menu li {
     display: inline-block;
-    /* border-radius: 5px; */
+    border-radius: 5px;
 }
 
 .header__menu li:hover {
@@ -122,11 +124,14 @@ hr {
 
 .header__menu li:hover .submenu {
     display: inline;
+    background-color: #9CD2C0;
+    border-radius: 5px;
 }
 
 .submenu {
     display: none;
     position: absolute;
+    top:50px;
     z-index: 1;
 }
 
