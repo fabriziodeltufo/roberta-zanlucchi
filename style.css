@@ -576,8 +576,6 @@ ul {
 }
 
 
-
-
 .justified-text {
     text-align: justify;
 }
@@ -697,7 +695,7 @@ ul {
     .submenu {
         display: block;
         position: absolute;
-        left:20px;
+        left: 20px;
         z-index: 1;
     }
 
@@ -760,6 +758,13 @@ ul {
 
 
     /* section */
+
+    .main {
+        padding: 0 20px;
+    }
+
+
+
     .section-01 .text-1 {
         padding: 0 10px;
         font-size: 1.5rem;
@@ -768,14 +773,9 @@ ul {
     }
 
     .section-01 .text-2 {
-        padding: 10px;
+        padding: 10px 15%;
         padding-top: 5px;
         font-size: 1rem;
-    }
-
-    .section-01 p {
-        width: 300px;
-        margin-top: 0;
     }
 
     .section-02 .text-1 {
@@ -786,6 +786,13 @@ ul {
         font-size: 16px;
     }
 
+
+    .section-03 {
+        padding: 0 20px;
+        padding-bottom: 80px;
+    }
+
+
     .section-04 #flowers {
         width: 100%;
         height: 300px;
@@ -794,11 +801,11 @@ ul {
 
     .section-04 .text-3 {
         font-size: 22px;
-        text-align: center;
+        text-align: left;
     }
 
     .section-04 .text-2 {
-        text-align: center;
+        text-align: left;
         font-size: 3.5rem;
     }
 
@@ -872,6 +879,10 @@ ul {
 
     .text-2 {
         font-size: 1.5rem
+    }
+
+    .justified-text {
+        text-align: left;
     }
 
 }
@@ -975,6 +986,15 @@ ul {
 /* ! 455 MEDIA QUERY */
 @media (max-width: 455px) {
 
+    .main {
+        padding: 0 10px;
+    }
+
+    .section-03 {
+        padding: 0 10px;
+        padding-bottom: 80px;
+    }
+
     .cover__content .text-0 {
         font-size: 40px;
     }
@@ -991,13 +1011,13 @@ ul {
     }
 
     .section-04 .text-2 {
-        text-align: center;
+        text-align: left;
         font-size: 1.5rem;
     }
 
     .section-04 .text-3 {
         font-size: 13px;
-        text-align: center;
+        text-align: left;
     }
 
     /* media-text */
