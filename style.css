@@ -132,7 +132,8 @@ hr {
     display: none;
     position: absolute;
     top:50px;
-    z-index: 1;
+    z-index: 99;
+    
 }
 
 
@@ -152,6 +153,7 @@ hr {
 
 .submenu li:hover {
     background-color: #9CD2C0;
+    color:white;
 }
 
 
